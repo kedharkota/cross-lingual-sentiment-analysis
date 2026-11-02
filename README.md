@@ -4,11 +4,26 @@ Multilingual data preparation and XLM-RoBERTa sentiment fine-tuning.
 
 **Python · PyTorch · Transformers · XLM-RoBERTa · pandas**
 
+[![Documentation checks](https://github.com/kedharkota/cross-lingual-sentiment-analysis/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/kedharkota/cross-lingual-sentiment-analysis/actions/workflows/docs.yml)
+
 [Overview](#overview) · [Getting started](#getting-started) · [Repository guide](#repository-guide) · [Reproducibility](docs/REPRODUCIBILITY.md)
 
-![Cross-Lingual Sentiment Analysis: project preview](docs/assets/overview.svg)
+<p align="center">
+  <img src="docs/assets/overview.svg" alt="Cross-Lingual Sentiment Analysis: project preview" width="900" />
+</p>
+
+[Open full-size visual](docs/assets/overview.svg)
 
 *Explanatory workflow diagram based on the committed project materials.*
+
+## Project at a glance
+
+| Detail | Project information |
+| --- | --- |
+| **Focus** | Multilingual sentiment classification |
+| **Start here** | [xlmr_finetune (1).ipynb](xlmr_finetune%20%281%29.ipynb) |
+| **Run mode** | Jupyter notebooks; language CSVs and model downloads required |
+| **Explore** | Data-cleaning pipeline, fine-tuning code, and validation routines |
 
 ## Overview
 
@@ -50,6 +65,9 @@ The fine-tuning notebook configures a five-epoch run, cosine learning-rate sched
 
 ## Documentation maintenance
 
+<details>
+<summary>Run documentation checks and maintain visuals</summary>
+
 Local documentation links and image headers are checked on pull requests and relevant pushes by the [documentation workflow](.github/workflows/docs.yml). Run the same check locally:
 
 ```bash
@@ -57,6 +75,13 @@ python tools/check_docs.py
 ```
 
 See the [reproducibility guide](docs/REPRODUCIBILITY.md) for evidence, missing artifacts, and visual-source notes. The check validates documentation files; it does not train models or certify application behavior.
+
+</details>
+
+## Explore related projects
+
+- [TeluguVoiceBridge / Speech Translation](https://github.com/kedharkota/Voice-Cloning-TTS-)
+- [Healthcare Recommendation Research Prototype](https://github.com/kedharkota/Healthcare-Recommendation-System)
 
 ---
 
